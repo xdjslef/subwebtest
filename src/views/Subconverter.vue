@@ -221,16 +221,21 @@ export default {
                 label: "No-Urltest",
                 value:
                   "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/no-urltest.ini"
-              },
+              }
+            ]
+          },
+          {
+            label: "远端",
+            options: [
               {
                 label: "Worker",
                 value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/urltest.ini"
+                  "https://test2.jh24cd.workers.dev/sub?"
               },
               {
-                label: "Worker域名",
+                label: "xyz",
                 value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/no-urltest.ini"
+                  "https://xyz.xdjc.xyz/sub?"
               }
             ]
           }
