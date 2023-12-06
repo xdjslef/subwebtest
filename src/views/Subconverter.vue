@@ -210,7 +210,22 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }{ value: "http://128.0.0.1:25500/sub?" }],
+        backendOptions: [
+          {
+            label: "universal",
+            options: [
+              {
+                label: "local",
+                value:
+                  "http://127.0.0.1:25500/sub?"
+              },
+              {
+                label: "xyz",
+                value:
+                  "http://128.0.0.1:25500/sub?"
+              }
+            ]
+          },
         remoteConfig: [
           {
             label: "universal",
