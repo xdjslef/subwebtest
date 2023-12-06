@@ -26,9 +26,9 @@
               </el-form-item>
 
               <div v-if="advanced === '2'">
-                <el-form-item label="远程配置:">
-                  <el-select v-model="form.remoteConfig" allow-create filterable placeholder="请选择" style="width: 100%">
-                    <el-option-group v-for="group in options.remoteConfig" :key="group.label" :label="group.label">
+                <el-form-item label="后端配置:">
+                  <el-select v-model="form.customBackend" allow-create filterable placeholder="请选择" style="width: 100%">
+                    <el-option-group v-for="group in options.customBackend" :key="group.label" :label="group.label">
                       <el-option v-for="item in group.options" :key="item.value" :label="item.label"
                         :value="item.value"></el-option>
                     </el-option-group>
