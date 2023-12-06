@@ -264,6 +264,7 @@ export default {
                 value:
                   "https://raw.githubusercontent.com/xdjohn99/xdjc/main/fenliu1.ini"
               }
+            ]
           },
           {
             label: "Special",
