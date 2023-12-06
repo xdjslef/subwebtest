@@ -215,17 +215,18 @@ export default {
             label: "universal",
             options: [
               {
-                label: "local",
+                label: "No-Urltest",
                 value:
-                  "http://127.0.0.1:25500/sub?"
+                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/no-urltest.ini"
               },
               {
-                label: "xyz",
+                label: "Urltest",
                 value:
-                  "http://128.0.0.1:25500/sub?"
+                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/urltest.ini"
               }
             ]
-          },
+          }
+        ],
         remoteConfig: [
           {
             label: "universal",
