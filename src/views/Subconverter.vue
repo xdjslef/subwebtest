@@ -215,7 +215,7 @@ export default {
         },
         customBackend: [
           {
-            label: "universal",
+            label: "本地",
             options: [
               {
                 label: "No-Urltest",
@@ -223,13 +223,18 @@ export default {
                   "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/no-urltest.ini"
               },
               {
-                label: "Urltest",
+                label: "Worker",
                 value:
                   "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/urltest.ini"
+              },
+              {
+                label: "Worker域名",
+                value:
+                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/no-urltest.ini"
               }
             ]
           }
-        ],
+        ],        
         remoteConfig: [
           {
             label: "universal",
