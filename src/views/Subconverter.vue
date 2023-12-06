@@ -218,14 +218,14 @@ export default {
             label: "本地",
             options: [
               {
-                label: "No-Urltest",
+                label: "本地后端",
                 value:
-                  "https://cdn.jsdelivr.net/gh/SleepyHeeead/subconverter-config@master/remote-config/universal/no-urltest.ini"
+                  "http://127.0.0.1:25500/sub?"
               }
             ]
           },
           {
-            label: "远端",
+            label: "远程",
             options: [
               {
                 label: "Worker",
